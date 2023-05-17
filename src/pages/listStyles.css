@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-width: 5;
+    border-style: solid;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    background-color: '#c0a4fb';
+    /* Make the text bold */
+    /* Center align the text */
+}
+
+li:hover {
+    background-color: #c0a4fb;
+}
+
+li.selected {
+    background-color: #c0a4fb;
+}
+
+.disableCaret {
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+}
